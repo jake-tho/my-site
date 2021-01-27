@@ -1,0 +1,123 @@
+/* CSS for ALL 3 pages */
+
+body {
+  font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  background-image: url("../images/portbg.jpg");
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+main {
+  margin: 80px 0;
+}
+.block {
+  background-color: #fff;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.block-header {
+  color: #4aaaa5;
+  font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-weight: bold;
+}
+
+
+/* Nav Bar CSS */
+
+#header {
+	background-color: #1F2022;
+}
+#navLink{
+	color: #707070;
+}
+#active{
+	color:#cfcfcf;
+}
+#logo {
+  font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-size: 24px;
+  font-weight: bold;
+  color:#CFCFCF;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #4aaaa5;
+}
+.navbar {
+  background: white;
+  border: none;
+}
+@media only screen and (max-width: 767px) {
+  .navbar-header {
+    background-color: #4aaaa5;
+  }
+}
+
+
+/* Footer CSS */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #666;
+}
+.text-muted-footer {
+  margin-top: 15px;
+  color: #fff;
+}
+.two-toned-footer-color {
+  height: 6px;
+  padding-top: 3px;
+  background-color: #4aaaa5;
+}
+
+
+/*===================================================================================*/
+/* The rest of the CSS from this line on is the CSS for each of the individual pages */
+/*===================================================================================*/
+
+
+/* About Me CSS */
+
+#abtHdrTxt {
+  font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  color: #CFCFCF;
+}
+#about-image {
+  float: left;
+  width: 200px;
+  margin: 0 20px 10px 0;
+}
+#block{
+	background-color: #1F2022;
+}
+#blockTxt{
+	color:#CFCFCF;
+}
+/* Portfolio CSS */
+
+.port-image {
+  margin: 20px auto;
+}
+
+
+/* Contact Me CSS Page  */
+
+.form-control {
+  border-radius: 0;
+  min-width: 100%;
+  max-width: 100%;
+}
+.submit-btn {
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #fff;
+  background-color: #575757;
+  border: 0;
+}
+.submit-btn:hover {
+  opacity: .7;
+}

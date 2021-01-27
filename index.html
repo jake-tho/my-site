@@ -1,33 +1,74 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en-us">
 
 <head>
-	<meta charset="utf-8">
-	<title>Jake Thomason</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>About Me</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
 </head>
 
 <body>
-<div class="container">
-<header>		
-	<h1>Student Bio</h1>
-</header>
-	
-<section id="bio-image">
-	<img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="Image not found" width="200" height="200">
-</section>
-		
-<section id="main-bio">
-	<h3>"Whether we wanted it or not, we've stepped into a war with the Cabal on Mars. So let's get to taking out their command, one by one. Valus Ta'aurc. From what I can gather he commands the Siege Dancers from an Imperial Land Tank outside of Rubicon. He's well protected, but with the right team, we can punch through those defenses, take this beast out, and break their grip on Freehold."</h3>
-</section>
-		
-<section id="contact-info">	
-	<h1>Contact info</h1>
-	<h3> - Email <a href="mailto:jake.tho19@gmail.com"> Jake.Tho19@gmail.com </a></h3>
-	<h3> - GitHub <a href="https://github.com/jake-tho" target="_blank">jake-tho</a></h3>
-	<h3> - Portfolio <a href="#">Coming Soon</a></h3>
-</section>
+  <nav class="navbar navbar-expand-lg navbar-light" id="header">
+        <div class="container">
+          <a class="navbar-brand" href="index.html" id="logo">Jake Thomason</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" id="active" href="index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="navLink" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="navLink" href="portfolio.html">Portfolio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-</div>
+  <main class="container">
+    <section class="row">
+      <div class="col-md-8">
+        <article class="block" id="block">
+          <h1 class="block-header" id="abtHdrTxt">About Me</h1>
+          <hr/>
+          <img src="assets/images/Blank-Profile.jpg" alt="Image not fond." id="about-image"/>
+          <p id="blockTxt">I began to enjoy coding when I took a Web Publishing course as part of the Graphic Design program at my High School. When I was actively taking that class I found out fairly quickly that not only was Web Dev/Coding something that I thoroughly enjoyed, but I was good at it as well. After I graduated High School I started a consumer product business with my Dad. I fell in love with Product R&amp;D. I loved the prototyping stage of things. I was able to put my problem-solving skills into a very direct example of "Let's try this and if this doesn't work let's try that". So I ended up going to college for Mechanical Engineering. I ended up taking a couple of semesters off after my first year because our business was starting to gain traction and they needed help. During my time that I spent working full time for our company I was tasked with making eMail signatures that would always show, and very responsive. Because of the requirements I was given for creating the email signatures I was given I turned to HTML and CSS for the first time since my Web Publishing class in High School and when I finished coding out all of the email signatures I realized that that was what I wanted to do for my career. Because of the fact that I was not enrolled in classes for more than 1 semester at Kent State, I decided that I wasn't going to go back to Kent and I found the CWRU Coding Bootcamp!</p>
+          <br/>
+          <p id="blockTxt">If you want to view some of my work so far feel free to check out my portfolio page! I am still expanding on my portfolio and my experience in the field so it's not overwhelmingly expansive yet.</p>
+        </article>
+      </div>
+    </section>
+	<div class="container">
+	  <div class="row">
+	  	<a href="https://www.linkedin.com/in/jake-thomason-1a437214a/">
+		   <img src="assets/images/linkedin.png" alt="LinkedIn">
+		</a>	
+	  </div>
+	  <div class="row">
+	  	<a href="https://github.com/jake-tho">
+		   <img src="assets/images/GitHub-Logo.png" alt="GitHub">
+		</a>	
+	  </div>
+	</div>
+  </main>
+	
+  <footer class="footer">
+    <p class="text-muted text-muted-footer text-center">
+      &copy; Copyright Jake Thomason
+    </p>
+  </footer>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>
